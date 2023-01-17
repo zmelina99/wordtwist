@@ -1,0 +1,45 @@
+$main-font: 'Baloo 2', cursive;
+
+@mixin x-large {
+  font-family: $main-font;
+  size: 90px;
+}
+
+@mixin large {
+  font-family: $main-font;
+  size: 50px;
+}
+
+@mixin medium {
+  font-family: $main-font;
+  size: 24px;
+}
+@mixin small {
+  font-family: $main-font;
+  size: 18px;
+}
+@mixin x-small {
+  font-family: $main-font;
+  size: 14px;
+}
+
+@mixin x-large-bold {
+  @include x-large();
+  font-weight: 700;
+}
+@mixin large-bold {
+  @include large();
+  font-weight: 700;
+}
+@mixin medium-bold {
+  @include medium();
+  font-weight: 700;
+}
+@mixin small-bold {
+  @include small();
+  font-weight: 700;
+}
+@mixin x-small-bold {
+  @include x-small();
+  font-weight: 700;
+}
