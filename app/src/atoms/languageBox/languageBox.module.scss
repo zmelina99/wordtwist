@@ -1,0 +1,17 @@
+@import '../../../styles/colors.scss', '../../../styles/fonts.scss';
+.LanguageBox {
+  @include large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid $primary-base;
+  border-radius: 8px;
+  padding: 1rem;
+  width: fit-content;
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: $primary-base 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+  }
+}

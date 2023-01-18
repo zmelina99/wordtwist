@@ -6,6 +6,7 @@ import { Timer } from './atoms/timer';
 import { useState } from 'react';
 import { buildStyles, CircularProgressbar } from 'react-circular-progressbar';
 import { Letter } from './atoms/letter';
+import { LanguageBox } from './atoms/languageBox';
 
 function App() {
   const [timer, setTimer] = useState(120);
@@ -19,7 +20,8 @@ function App() {
     <div className="App">
       <Button label="play" variant="primary" />
       <Timer timer={timer} />
-      <Letter label='A'/>
+      <Letter label="A" />
+      <LanguageBox label="English" onSelected={() => {}} />
     </div>
   );
 }
