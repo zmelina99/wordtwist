@@ -1,0 +1,19 @@
+.Timer {
+  // background-image: url(../../clockPng.png) ;
+  padding: 2rem;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Timer__Clock {
+  position: relative;
+  padding: 2rem;
+  width: 10rem;
+}
+.Timer__Piechart {
+  position: absolute;
+  z-index: 100;
+  width: 9rem;
+  top: 10.3rem;
+}
