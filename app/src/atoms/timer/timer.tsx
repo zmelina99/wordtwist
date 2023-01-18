@@ -1,7 +1,8 @@
 import React from 'react';
-import styles from './timer.module.scss';
 import clock from './clock.png';
 import { buildStyles, CircularProgressbar } from 'react-circular-progressbar';
+import styles from './timer.module.scss';
+
 
 interface ITimer {
   timer: number;
